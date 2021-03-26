@@ -8,9 +8,9 @@ Non Fungible Token is a growing phenomenon appeared in 2017, It allows people to
 
 ## Owning a token ID and what else ? 
 
-NFTs are often criticized because image sources aren't stored on the blockchain, this is simply because writing data in a smart contract is so expensive that storing an image would cost thousands of dollars of gas fees per image.
+NFTs are often criticized because image sources aren't stored on the blockchain. This is simply because writing data in a smart contract is so expensive that storing an image would cost thousands of dollars of gas fees per image.
 
-Pictures assets must be hosted elsewhere, generally on IPFS or private networks, the art lifespan depends on the lifespan of the ethereum blockchain and the external hosting, if one may disappear, the art disappears. 
+Pictures assets must be hosted elsewhere, generally on IPFS or private networks. The art lifespan depends on the lifespan of the ethereum blockchain and the external hosting, if one may disappear, the art disappears. 
 
 ## The particular case of on-chain generated NFTs 
 Storing pictures on blockchain is not possible, but what about generating files on-demand ? 
