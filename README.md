@@ -2,7 +2,7 @@
 
 # [cryptoghost.art](https://cryptoghost.art "cryptoghost")
 
-## Cryptoghost is the a NFT that doesn't rely on external hosting for pictures assets. Everything is on the Ethereum blockchain. As long as Ethereum exists, pictures exist.
+## Cryptoghost is a NFT that doesn't rely on external hosting for pictures assets. Everything is on the Ethereum blockchain. As long as Ethereum exists, pictures exist.
 
 Non Fungible Token is a growing phenomenon appeared in 2017, It allows people to "own" some image by writing an entry in a [Ethereum smart contract](https://ethereum.org/en/developers/docs/smart-contracts/). Once your personal ethereum address written in the registry, it is the proof that some token ID is affected to your adress, then by calling some methods in the smart contract, you can trade and transfert your NFT to other ethereum addresses.
 
