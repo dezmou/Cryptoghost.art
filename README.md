@@ -23,6 +23,22 @@ In this case, no need to store the picture somewhere but just the input string i
 
 Then with solidity the image file can be generated on the fly.
 
+## Quickly test it without coding
+Go the the [Etherscan page of the contract](https://etherscan.io/address/0x6f6dba0170dE97249083994d85204F507Cf416B4#readContract "Etherscan page of the contract") then call the `getBitmapFromghostKey` function with some string input
+
+![alt text](./input.png "CryptoGhost example")
+
+The result is some hex-encoded result of a .bmp file, you can quickly generate the file with [this website](https://tomeko.net/online_tools/hex_to_file.php?lang=en "tomeko.net")
+
+![alt text](./tomeko.png "CryptoGhost example")
+
+## This is the output bitmap file generated from a smart contract
+
+![alt text](./final.png "CryptoGhost example")
+
+## The solidity source code of the bitmap generator
+
+
 ```java
 function getBitmapFromGhostKey(string memory value)
     public
@@ -102,19 +118,3 @@ hex"424d384400000000000036040000280000008000000080000000010008000000000002400000
     return BytesUtils.MergeBytes(headers, pixels);
 }
 ```
-
-## Quickly test it without coding
-Go the the [Etherscan page of the contract](https://etherscan.io/address/0x6f6dba0170dE97249083994d85204F507Cf416B4#readContract "Etherscan page of the contract") then call the `getBitmapFromghostKey` function with some string input
-
-![alt text](./input.png "CryptoGhost example")
-
-The result is some hex-encoded result of a .bmp file, you can quickly generate the file with [this website](https://tomeko.net/online_tools/hex_to_file.php?lang=en "tomeko.net")
-
-![alt text](./tomeko.png "CryptoGhost example")
-
-## This is the output bitmap file generated from a smart contract
-
-![alt text](./final.png "CryptoGhost example")
-
-
-
