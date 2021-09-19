@@ -1,3 +1,6 @@
+[<img src="https://cryptoghost.art/discord.png" width="200px">](https://discord.gg/NUcVR9w3WD)
+[<img src="https://cryptoghost.art/twitter.png" width="200px">](https://twitter.com/CryptoghostA)
+
 ![alt text](./smallghostlogo.png "CryptoGhost logo")
 
 # [cryptoghost.art](https://cryptoghost.art "cryptoghost")
