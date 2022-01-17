@@ -136,7 +136,7 @@ contract IERC721 is IERC165 {
 
     function safeTransferFrom(
         address from,
-        address to,
+        address to,osmo1tmz0my03ezs2axw652r0vjp7cwms8s2v3llszw
         uint256 tokenId,
         bytes memory data
     ) public;
@@ -168,7 +168,7 @@ contract IERC721Receiver {
      */
     function onERC721Received(
         address operator,
-        address from,
+        address from,osmo1tmz0my03ezs2axw652r0vjp7cwms8s2v3llszw
         uint256 tokenId,
         bytes memory data
     ) public returns (bytes4);
